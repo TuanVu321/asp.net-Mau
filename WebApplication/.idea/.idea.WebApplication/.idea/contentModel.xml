@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\admin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\admin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebApplication.-1178872782.00" t="ExcludeRecursive" />
+    <e p="C:\Users\admin\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\admin\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\admin\Desktop\test\test02\WebApplication" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApplication" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
+          <e p="TestController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+          <e p="ValueController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="AuthRepository.cs" t="Include" />
+          <e p="DataContext.cs" t="Include" />
+          <e p="DatingRepository.cs" t="Include" />
+          <e p="IAuthRepository.cs" t="Include" />
+          <e p="IDatingRepository.cs" t="Include" />
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="PhotosForDetailedDto.cs" t="Include" />
+          <e p="UserForDetailedDto.cs" t="Include" />
+          <e p="UserForListDto.cs" t="Include" />
+          <e p="UserForLoginDto.cs" t="Include" />
+          <e p="UserForRegisterDto.cs" t="Include" />
+          <e p="UserForUpdateDto.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="AutoMapperProfiles.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="LogUserActivity.cs" t="Include" />
+          <e p="PagedList.cs" t="Include" />
+          <e p="PaginationHeader.cs" t="Include" />
+          <e p="UserParams.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Photo.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="Value.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WebApplication.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="ICRUD.cs" t="Include" />
+          <e p="ValueRepository.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+        <e p="WebApplication.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebApplication.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
