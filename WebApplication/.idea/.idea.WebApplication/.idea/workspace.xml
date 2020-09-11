@@ -23,12 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8457a243-7a64-40b3-8286-523e3a043308" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Dtos/UserForUpdateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Helpers/LogUserActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Dtos/UserForRegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Dtos/UserForRegisterDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Helpers/AutoMapperProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Helpers/AutoMapperProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Data/DatingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Data/DatingRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Helpers/UserParams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Helpers/UserParams.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04BC620C-EA71-4C94-84D1-3814AC579B53/6C/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E1D5C653-F956-4591-A0AE-6D42E28F2D12/8/Queryable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A1716C32-B974-4D01-8A04-EFC83589476F/2/ConfigureNamedOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/964423E9-29DC-4236-B803-E9FAA6B5569B/7/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A1716C32-B974-4D01-8A04-EFC83589476F/7/OptionsFactory.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,17 +83,17 @@
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForUpdateDto.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Helpers/AutoMapperProfiles.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Helpers/LogUserActivity.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Helpers/PagedList.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Helpers/PaginationHeader.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/IDatingRepository.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Helpers/UserParams.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Helpers/Extensions.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Helpers/UserParams.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/DatingRepository.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +167,8 @@
       <workItem from="1599442267997" duration="14874000" />
       <workItem from="1599528134900" duration="15920000" />
       <workItem from="1599614423106" duration="9008000" />
-      <workItem from="1599701575252" duration="18830000" />
+      <workItem from="1599701575252" duration="19623000" />
+      <workItem from="1599786692973" duration="11255000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1599095973975</created>
@@ -211,22 +216,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="201" y="34" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598924227661" />
-    <state width="1323" height="107" key="GridCell.Tab.0.bottom" timestamp="1599732852784">
+    <state width="677" height="107" key="GridCell.Tab.0.bottom" timestamp="1599808800175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="107" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599732852784" />
-    <state width="1323" height="107" key="GridCell.Tab.0.center" timestamp="1599732852784">
+    <state width="677" height="107" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599808800175" />
+    <state width="677" height="107" key="GridCell.Tab.0.center" timestamp="1599808800175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="107" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599732852784" />
-    <state width="1323" height="107" key="GridCell.Tab.0.left" timestamp="1599732852784">
+    <state width="677" height="107" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599808800175" />
+    <state width="677" height="107" key="GridCell.Tab.0.left" timestamp="1599808800175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="107" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599732852784" />
-    <state width="1323" height="107" key="GridCell.Tab.0.right" timestamp="1599732852784">
+    <state width="677" height="107" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599808800175" />
+    <state width="677" height="107" key="GridCell.Tab.0.right" timestamp="1599808800175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="107" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599732852784" />
+    <state width="677" height="107" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599808800175" />
     <state width="1323" height="178" key="GridCell.Tab.1.bottom" timestamp="1599647280964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
