@@ -12,6 +12,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AdminController.cs" t="Include" />
           <e p="AuthController.cs" t="Include" />
           <e p="TestController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />

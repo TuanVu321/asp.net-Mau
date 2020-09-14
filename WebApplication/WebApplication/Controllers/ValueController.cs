@@ -23,7 +23,7 @@ namespace WebApplication.Controllers
         }
         
         [HttpGet]
-        [Authorize(Roles = "Member")]
+        [Authorize(Roles = "Admin, Moderator")]
         public IActionResult GetValues()
         {
             var values = _context.Values.ToList();
@@ -47,6 +47,7 @@ namespace WebApplication.Controllers
         }
         
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Member")]
         public IActionResult DeleteById(int id)
         {
             var values = _context.Values.Find(id);

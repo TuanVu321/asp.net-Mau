@@ -23,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8457a243-7a64-40b3-8286-523e3a043308" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/AdminController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +92,11 @@
         <option value="$PROJECT_DIR$/WebApplication/Models/Role.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/UserRole.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/DataContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/User.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/AdminController.cs" />
       </list>
     </option>
   </component>
@@ -169,7 +172,7 @@
       <workItem from="1599614423106" duration="9008000" />
       <workItem from="1599701575252" duration="19623000" />
       <workItem from="1599786692973" duration="15023000" />
-      <workItem from="1600048032591" duration="13249000" />
+      <workItem from="1600048032591" duration="14549000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1599095973975</created>
