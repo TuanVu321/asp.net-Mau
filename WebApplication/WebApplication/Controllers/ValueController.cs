@@ -23,7 +23,7 @@ namespace WebApplication.Controllers
         }
         
         [HttpGet]
-        [AllowAnonymous]
+        [Authorize(Roles = "Member")]
         public IActionResult GetValues()
         {
             var values = _context.Values.ToList();

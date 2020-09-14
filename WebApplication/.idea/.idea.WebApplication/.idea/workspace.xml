@@ -23,14 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8457a243-7a64-40b3-8286-523e3a043308" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/c208de93-8019-4a25-a3b5-d8471946d973.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/c208de93-8019-4a25-a3b5-d8471946d973.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,6 @@
         <option value="$PROJECT_DIR$/WebApplication/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/WebApplication/appsettings.json" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForList.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Dtos/UserForListDto.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/UserForDetailedDto.cs" />
@@ -97,8 +91,9 @@
         <option value="$PROJECT_DIR$/WebApplication/Models/UserRole.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/User.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" />
       </list>
     </option>
   </component>
@@ -174,7 +169,7 @@
       <workItem from="1599614423106" duration="9008000" />
       <workItem from="1599701575252" duration="19623000" />
       <workItem from="1599786692973" duration="15023000" />
-      <workItem from="1600048032591" duration="12598000" />
+      <workItem from="1600048032591" duration="13249000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1599095973975</created>
