@@ -23,35 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8457a243-7a64-40b3-8286-523e3a043308" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Models/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Models/UserRole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/c208de93-8019-4a25-a3b5-d8471946d973.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/dataSources/c208de93-8019-4a25-a3b5-d8471946d973.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Data/DataContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,12 +93,12 @@
         <option value="$PROJECT_DIR$/WebApplication/Helpers/UserParams.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Photo.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Models/User.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Role.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/UserRole.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/User.cs" />
       </list>
     </option>
   </component>
@@ -195,7 +174,7 @@
       <workItem from="1599614423106" duration="9008000" />
       <workItem from="1599701575252" duration="19623000" />
       <workItem from="1599786692973" duration="15023000" />
-      <workItem from="1600048032591" duration="9110000" />
+      <workItem from="1600048032591" duration="12598000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1599095973975</created>
@@ -243,22 +222,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="201" y="34" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598924227661" />
-    <state width="1323" height="288" key="GridCell.Tab.0.bottom" timestamp="1600056840823">
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1600065540536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600056840823" />
-    <state width="1323" height="288" key="GridCell.Tab.0.center" timestamp="1600056840822">
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600065540536" />
+    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1600065540536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600056840822" />
-    <state width="1323" height="288" key="GridCell.Tab.0.left" timestamp="1600056840822">
+    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600065540536" />
+    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1600065540536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600056840822" />
-    <state width="1323" height="288" key="GridCell.Tab.0.right" timestamp="1600056840822">
+    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600065540536" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1600065540536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600056840822" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600065540536" />
     <state width="1323" height="319" key="GridCell.Tab.1.bottom" timestamp="1600055797383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -355,18 +334,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="240" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728@0.0.1366.728" timestamp="1598924207737" />
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1598933175636">
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1600057243458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1598933175636" />
+    <state x="577" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1600057243458" />
     <state x="479" y="184" width="408" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1600054979618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="184" width="408" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1600054979618" />
-    <state x="694" y="60" width="605" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600056697775">
+    <state x="641" y="86" width="605" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1600065080391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="694" y="60" width="605" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600056697775" />
+    <state x="641" y="86" width="605" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600065080391" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598857595288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

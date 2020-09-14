@@ -38,13 +38,18 @@ namespace WebApplication.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserForRegisterDto userForRegisterDto)
         {
-            userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
-            if (await _repo.UserExists(userForRegisterDto.Username))
-                return BadRequest("Username already exists");
+            // userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
+            // if (await _repo.UserExists(userForRegisterDto.Username))
+            //     return BadRequest("Username already exists");
             var userToCreate = _mapper.Map<User>(userForRegisterDto);
-            var createdUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
-            var userToReturn = _mapper.Map<UserForDetailedDto>(createdUser);
-            return CreatedAtRoute("GetUser",new{controller="User",id=createdUser.Id},userToReturn);
+            var result = await _userManager.CreateAsync(userToCreate, userForRegisterDto.Password);
+            var userToReturn = _mapper.Map<UserForDetailedDto>(userToCreate);
+            if (result.Succeeded)
+            {
+                return CreatedAtRoute("GetUser",new{controller="User",id=userToCreate.Id},userToReturn);
+            }
+
+            return BadRequest(result.Errors);
         }
 
         [HttpPost("login")]
