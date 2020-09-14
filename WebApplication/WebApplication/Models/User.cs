@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication.Models
 {
-    public class User
+    public class User: IdentityUser<int>
     {
         public int Id { get; set; }
         public string Username { get; set; }
@@ -20,7 +21,9 @@ namespace WebApplication.Models
         public string Interests { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
-        public ICollection<Photo> Photos { get; set; }
+        public virtual ICollection<Photo> Photos { get; set; }
+
+        public virtual ICollection<UserRole> UserRoles { get; set; }
 
         
     }

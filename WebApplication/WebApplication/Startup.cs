@@ -6,21 +6,24 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-
 using WebApplication.Data;
 using WebApplication.Helpers;
+using WebApplication.Models;
 using WebApplication.Repository;
 
 namespace WebApplication
@@ -37,17 +40,20 @@ namespace WebApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<DataContext>(
-                options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")
-                ));
-            services.AddCors();
-            services.AddScoped<IAuthRepository, AuthRepository>();
-            services.AddScoped<IDatingRepository, DatingRepository>();
-            services.AddAutoMapper(typeof(DatingRepository).Assembly);
-            services.AddScoped<ICRUD, ValueRepository>();
-            services.AddControllers().AddNewtonsoftJson(options =>
-                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-            );
+            IdentityBuilder builder = services.AddIdentityCore<User>(opt =>
+            {
+                opt.Password.RequireDigit = false;
+                opt.Password.RequiredLength = 4;
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequireUppercase = false;
+            });
+
+            builder = new IdentityBuilder(builder.UserType, typeof(Role), builder.Services);
+            builder.AddEntityFrameworkStores<DataContext>();
+            builder.AddRoleValidator<RoleValidator<Role>>();
+            builder.AddRoleManager<RoleManager<Role>>();
+            builder.AddSignInManager<SignInManager<User>>();
+
             services.AddAuthentication(auth =>
                 {
                     auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -68,6 +74,24 @@ namespace WebApplication
                         //Here, we are creating and using JWT within the same application.
                     };
                 });
+
+            services.AddDbContextPool<DataContext>(
+                options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")
+                ));
+            services.AddCors();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IDatingRepository, DatingRepository>();
+            services.AddAutoMapper(typeof(DatingRepository).Assembly);
+            services.AddScoped<ICRUD, ValueRepository>();
+            services.AddControllers(option =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                        .RequireAuthenticatedUser().Build();
+                option.Filters.Add(new AuthorizeFilter(policy));
+            }).AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
+
             services.AddScoped<LogUserActivity>();
         }
 
@@ -84,8 +108,8 @@ namespace WebApplication
                 {
                     builder.Run(async context =>
                     {
-                        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            
+                        context.Response.StatusCode = (int) HttpStatusCode.InternalServerError;
+
                         var error = context.Features.Get<IExceptionHandlerFeature>();
                         if (error != null)
                         {
@@ -95,7 +119,7 @@ namespace WebApplication
                     });
                 });
             }
-           
+
 
             app.UseHttpsRedirection();
 
