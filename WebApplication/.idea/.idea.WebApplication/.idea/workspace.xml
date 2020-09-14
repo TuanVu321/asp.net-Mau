@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8457a243-7a64-40b3-8286-523e3a043308" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/ValueController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AdminController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/5C/Array.Enumerators.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/851DC736-17B7-47FB-9CD4-DD3F38D22C2F/3/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A1716C32-B974-4D01-8A04-EFC83589476F/9/OptionsMonitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0198C680-4F59-45F2-B990-5A40DF30B40A/e1/ea45be57/IOrderedQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4065B38D-0F9F-44D9-8F53-F4C9102AF396/d5/f42f6388/IEquatable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04BC620C-EA71-4C94-84D1-3814AC579B53/6C/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
@@ -172,7 +170,7 @@
       <workItem from="1599614423106" duration="9008000" />
       <workItem from="1599701575252" duration="19623000" />
       <workItem from="1599786692973" duration="15023000" />
-      <workItem from="1600048032591" duration="14549000" />
+      <workItem from="1600048032591" duration="15597000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1599095973975</created>
